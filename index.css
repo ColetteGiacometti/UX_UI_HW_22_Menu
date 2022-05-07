@@ -5,7 +5,7 @@
 /*header */
 .customNav {
 width: 100%;
-background-color: black !important;
+background-color: transparent !important;
 height: 60px;
 z-index: 10;
 }
@@ -106,6 +106,10 @@ color:black;
   color:black;
   margin: 0 auto;
   justify-content: center;
+}
+
+.textFooter:hover {
+  font-weight: bold;
 }
 
 .social {
