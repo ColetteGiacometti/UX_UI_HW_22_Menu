@@ -45,7 +45,7 @@ li {
 }
 
 h1 {
-  margin-top: 7%;
+  margin-top: 15%;
   margin-bottom: 5%;
   color: white;
   font-family: 'Josefin Slab', serif;
@@ -53,7 +53,7 @@ h1 {
   }
 
 h3 {
-  margin-top: 7%;
+  margin-top: 15%;
   color: white;
   font-family: 'Josefin Slab', serif;
   font-size: 200%;
@@ -67,24 +67,34 @@ h4 {
   font-weight: normal;
 }
 
+p {
+  color: white !important;
+  font-family: 'Josefin Slab', serif;
+  font-size: 150%;
+  font-weight: normal;
+  line-height: 30pt;
+}
+
 .heroImg {
   background-image: url("drink.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 2500px; 
+  height: 2000px; 
   text-align: center;
 }
 
 .card-deck {
-  margin-top: 7%;
+  margin-top: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-ul {
-  list-style: none
+.card {
+  margin: 0 !important;
 }
+
+
 a {
   text-decoration: none;
   color:black;
