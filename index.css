@@ -53,7 +53,7 @@ h1 {
   }
 
 h3 {
-  margin-top: 15%;
+  margin-top: 5%;
   color: white;
   font-family: 'Josefin Slab', serif;
   font-size: 200%;
@@ -76,7 +76,7 @@ p {
 }
 
 .heroImg {
-  background-image: url("drink.png");
+  background-image: url("Beer\ Background.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 2000px; 
@@ -94,6 +94,9 @@ p {
   margin: 0 !important;
 }
 
+.container {
+  margin-left: 20%;
+}
 
 a {
   text-decoration: none;
